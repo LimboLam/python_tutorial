@@ -13,11 +13,24 @@ is_student = True
 
 # Explicit Conversion
 
-age = float(age)
-print(type(age))
+# age = float(age)
+# print(type(age))
 
-gpa = int(gpa)
-print(type(gpa))
+# gpa = int(gpa)
+# print(type(gpa))
 
-is_student = str(is_student)
-print(type(is_student))
+# is_student = str(is_student)
+# print(type(is_student))
+
+# age = bool(age)
+# print(type(age))
+# print(age)
+
+# Implicit Conversion
+
+x = 2
+y = 2.0
+
+x = x / y
+
+print(type(x))
